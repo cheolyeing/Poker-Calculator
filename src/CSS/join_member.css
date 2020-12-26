@@ -1,0 +1,18 @@
+.join_title {
+    color: white;
+    display: inline;
+}
+
+.info_check {
+    margin-left: 20px;
+    display: inline;
+    color: #ff582c;
+    right: 0px;
+}
+
+.inp_join {
+    position: relative;
+    width: 460px;
+    height: 52px;
+    margin-bottom: 20px;
+}
