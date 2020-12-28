@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CSS/join_member.css";
 
 function Join_Member() {
   const [id, setID] = useState<string>("");

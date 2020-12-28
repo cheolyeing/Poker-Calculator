@@ -1,9 +1,5 @@
 @media (min-width: 767px) {}
 
-body {
-    background-color: black;
-}
-
 .container {
     width: 460px;
     margin: 0 auto;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./CSS/login.css";
 
 const localStorageKey = "memaberInfo";
 
@@ -78,8 +79,8 @@ function Login() {
 
   function clickLogIn() {
     if (id === "admin" && pw === "1234") {
-      console.log("login passed");
       saveAtLocalStorage(remember, id, pw);
+      window.location.href = "home";
     }
   }
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CSS/join_check.css";
 
 const INVITE_CODE = "limi";
 
