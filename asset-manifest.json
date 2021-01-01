@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Poker-Calculator/static/css/main.8c8febcd.chunk.css",
-    "main.js": "/Poker-Calculator/static/js/main.f65d30a5.chunk.js",
-    "main.js.map": "/Poker-Calculator/static/js/main.f65d30a5.chunk.js.map",
+    "main.js": "/Poker-Calculator/static/js/main.6a172098.chunk.js",
+    "main.js.map": "/Poker-Calculator/static/js/main.6a172098.chunk.js.map",
     "runtime-main.js": "/Poker-Calculator/static/js/runtime-main.c73ce739.js",
     "runtime-main.js.map": "/Poker-Calculator/static/js/runtime-main.c73ce739.js.map",
-    "static/js/2.982c3c12.chunk.js": "/Poker-Calculator/static/js/2.982c3c12.chunk.js",
-    "static/js/2.982c3c12.chunk.js.map": "/Poker-Calculator/static/js/2.982c3c12.chunk.js.map",
+    "static/js/2.7df8beed.chunk.js": "/Poker-Calculator/static/js/2.7df8beed.chunk.js",
+    "static/js/2.7df8beed.chunk.js.map": "/Poker-Calculator/static/js/2.7df8beed.chunk.js.map",
     "static/js/3.1fa40030.chunk.js": "/Poker-Calculator/static/js/3.1fa40030.chunk.js",
     "static/js/3.1fa40030.chunk.js.map": "/Poker-Calculator/static/js/3.1fa40030.chunk.js.map",
     "index.html": "/Poker-Calculator/index.html",
     "static/css/main.8c8febcd.chunk.css.map": "/Poker-Calculator/static/css/main.8c8febcd.chunk.css.map",
-    "static/js/2.982c3c12.chunk.js.LICENSE.txt": "/Poker-Calculator/static/js/2.982c3c12.chunk.js.LICENSE.txt",
+    "static/js/2.7df8beed.chunk.js.LICENSE.txt": "/Poker-Calculator/static/js/2.7df8beed.chunk.js.LICENSE.txt",
     "static/media/login.css": "/Poker-Calculator/static/media/join_main.f2884e43.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c73ce739.js",
-    "static/js/2.982c3c12.chunk.js",
+    "static/js/2.7df8beed.chunk.js",
     "static/css/main.8c8febcd.chunk.css",
-    "static/js/main.f65d30a5.chunk.js"
+    "static/js/main.6a172098.chunk.js"
   ]
 }
