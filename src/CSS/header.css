@@ -1,18 +1,74 @@
 header {
-    background-color: white;
     position: relative;
     height: 100px;
 }
 
+.icon {
+    position: relative;
+    display: inline-block;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.settings {
+    position: absolute;
+    display: inline-block;
+    background-image: url('../images/settings.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 60px;
+    cursor: pointer;
+}
+
+.logout {
+    position: absolute;
+    display: inline-block;
+    background-image: url('../images/logout.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .header {
     position: fixed;
-    background-color: red;
+    background-color: #151515;
     width: 100%;
-    height: 100px;
+    height: 60px;
 }
 
 .main {
     width: 100%;
     height: 1200px;
     color: red;
+}
+
+.menu_container {
+    position: absolute;
+    display: inline-block;
+    width: 800px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.menu_txt {
+    color: white;
+    text-align: center;
 }

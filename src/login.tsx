@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "./CSS/login.css";
 
-const localStorageKey = "memaberInfo";
+const localStorageKey = "memberInfo";
 
 const initInfo = loadFromLocalStorage();
 

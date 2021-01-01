@@ -119,7 +119,7 @@ function Join_Member() {
       alert("Please Enter Nickname");
     } else {
       var json = { id: id, pw: pw };
-      localStorage.setItem("memaberInfo", JSON.stringify(json));
+      localStorage.setItem("memberInfo", JSON.stringify(json));
       alert("Account Created!");
       history.push("");
     }

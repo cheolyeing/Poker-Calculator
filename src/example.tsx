@@ -1,8 +1,8 @@
 import React from "react";
 import "./CSS/header.css";
 
-function Example() {
-  return <div className="main">Example</div>;
+function Example(props: any) {
+  return <div className="main">{props.menu}</div>;
 }
 
 export default Example;
