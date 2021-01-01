@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./CSS/login.css";
 
 const localStorageKey = "memaberInfo";
@@ -7,6 +7,7 @@ const localStorageKey = "memaberInfo";
 const initInfo = loadFromLocalStorage();
 
 function Login() {
+  const history = useHistory();
   const [id, setID] = useState<string>(initInfo[0]);
   const [pw, setPW] = useState<string>(initInfo[1]);
   const [remember, setRemember] = useState<boolean>(initInfo[2]);
@@ -80,7 +81,8 @@ function Login() {
   function clickLogIn() {
     if (id === "admin" && pw === "1234") {
       saveAtLocalStorage(remember, id, pw);
-      window.location.href = "home";
+      console.log("YES");
+      history.push("home");
     }
   }
 }

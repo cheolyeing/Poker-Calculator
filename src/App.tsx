@@ -9,9 +9,8 @@ import Home from "./home";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        {/* 실제 사용 될 코드 */}
         <Route path="/" component={Login} exact />
         <Route path="/home" component={Home} exact />
         <Route path="/join_check" component={Join_Check} exact />

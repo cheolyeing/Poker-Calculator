@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./CSS/join_member.css";
 
 function Join_Member() {
+  const history = useHistory();
   const [id, setID] = useState<string>("");
   const [pw, setPW] = useState<string>("");
   const [cpw, setCPW] = useState<string>("");
@@ -97,30 +99,30 @@ function Join_Member() {
       </div>
     </div>
   );
-}
 
-function createAccount(
-  id: string,
-  pw: string,
-  cpw: string,
-  name: string,
-  nickname: string
-) {
-  if (id === "") {
-    alert("Please Enter ID");
-  } else if (pw === "") {
-    alert("Please Enter PW");
-  } else if (pw !== cpw) {
-    alert("Please Check your PW");
-  } else if (name === "") {
-    alert("Please Enter Name");
-  } else if (nickname === "") {
-    alert("Please Enter Nickname");
-  } else {
-    var json = { id: id, pw: pw };
-    localStorage.setItem("memaberInfo", JSON.stringify(json));
-    alert("Account Created!");
-    window.location.href = "/";
+  function createAccount(
+    id: string,
+    pw: string,
+    cpw: string,
+    name: string,
+    nickname: string
+  ) {
+    if (id === "") {
+      alert("Please Enter ID");
+    } else if (pw === "") {
+      alert("Please Enter PW");
+    } else if (pw !== cpw) {
+      alert("Please Check your PW");
+    } else if (name === "") {
+      alert("Please Enter Name");
+    } else if (nickname === "") {
+      alert("Please Enter Nickname");
+    } else {
+      var json = { id: id, pw: pw };
+      localStorage.setItem("memaberInfo", JSON.stringify(json));
+      alert("Account Created!");
+      history.push("");
+    }
   }
 }
 

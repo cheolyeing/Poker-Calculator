@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./CSS/join_check.css";
 
 const INVITE_CODE = "limi";
 
 function Join_Check() {
   const [code, setCode] = useState<string>("");
+  const history = useHistory();
 
   return (
     <div>
@@ -26,13 +28,13 @@ function Join_Check() {
       </div>
     </div>
   );
-}
 
-function checkCode(code: string) {
-  if (code === INVITE_CODE) {
-    window.location.href = "join_member";
-  } else {
-    alert("Invite Code does not matched");
+  function checkCode(code: string) {
+    if (code === INVITE_CODE) {
+      history.push("join_member");
+    } else {
+      alert("Invite Code does not matched");
+    }
   }
 }
 
