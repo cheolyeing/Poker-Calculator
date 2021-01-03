@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Poker-Calculator/static/css/main.21d0025a.chunk.css",
-    "main.js": "/Poker-Calculator/static/js/main.54f1c821.chunk.js",
-    "main.js.map": "/Poker-Calculator/static/js/main.54f1c821.chunk.js.map",
-    "runtime-main.js": "/Poker-Calculator/static/js/runtime-main.c73ce739.js",
-    "runtime-main.js.map": "/Poker-Calculator/static/js/runtime-main.c73ce739.js.map",
-    "static/js/2.39328af2.chunk.js": "/Poker-Calculator/static/js/2.39328af2.chunk.js",
-    "static/js/2.39328af2.chunk.js.map": "/Poker-Calculator/static/js/2.39328af2.chunk.js.map",
-    "static/js/3.1fa40030.chunk.js": "/Poker-Calculator/static/js/3.1fa40030.chunk.js",
-    "static/js/3.1fa40030.chunk.js.map": "/Poker-Calculator/static/js/3.1fa40030.chunk.js.map",
+    "main.css": "/Poker-Calculator/static/css/main.8a2ce886.chunk.css",
+    "main.js": "/Poker-Calculator/static/js/main.74db73e0.chunk.js",
+    "main.js.map": "/Poker-Calculator/static/js/main.74db73e0.chunk.js.map",
+    "runtime-main.js": "/Poker-Calculator/static/js/runtime-main.93e24ed0.js",
+    "runtime-main.js.map": "/Poker-Calculator/static/js/runtime-main.93e24ed0.js.map",
+    "static/js/2.f41bb6d4.chunk.js": "/Poker-Calculator/static/js/2.f41bb6d4.chunk.js",
+    "static/js/2.f41bb6d4.chunk.js.map": "/Poker-Calculator/static/js/2.f41bb6d4.chunk.js.map",
+    "static/js/3.8aef47ce.chunk.js": "/Poker-Calculator/static/js/3.8aef47ce.chunk.js",
+    "static/js/3.8aef47ce.chunk.js.map": "/Poker-Calculator/static/js/3.8aef47ce.chunk.js.map",
     "index.html": "/Poker-Calculator/index.html",
-    "static/css/main.21d0025a.chunk.css.map": "/Poker-Calculator/static/css/main.21d0025a.chunk.css.map",
-    "static/js/2.39328af2.chunk.js.LICENSE.txt": "/Poker-Calculator/static/js/2.39328af2.chunk.js.LICENSE.txt",
+    "static/css/main.8a2ce886.chunk.css.map": "/Poker-Calculator/static/css/main.8a2ce886.chunk.css.map",
+    "static/js/2.f41bb6d4.chunk.js.LICENSE.txt": "/Poker-Calculator/static/js/2.f41bb6d4.chunk.js.LICENSE.txt",
+    "static/media/footer.css": "/Poker-Calculator/static/media/github.987334e9.png",
     "static/media/login.css": "/Poker-Calculator/static/media/join_main.f2884e43.jpg",
     "static/media/header.css": "/Poker-Calculator/static/media/settings.482ae2ad.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c73ce739.js",
-    "static/js/2.39328af2.chunk.js",
-    "static/css/main.21d0025a.chunk.css",
-    "static/js/main.54f1c821.chunk.js"
+    "static/js/runtime-main.93e24ed0.js",
+    "static/js/2.f41bb6d4.chunk.js",
+    "static/css/main.8a2ce886.chunk.css",
+    "static/js/main.74db73e0.chunk.js"
   ]
 }
