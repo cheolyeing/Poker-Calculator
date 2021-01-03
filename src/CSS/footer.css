@@ -1,4 +1,31 @@
 footer {
-    background-color: yellow;
+    background-color: #151515;
     height: 100px;
+}
+
+.footer {
+    color: white;
+    width: 575px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.footer_img {
+    background-image: url('../images/github.png');
+    background-size: contain;
+    float: left;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.footer_txt {
+    margin-top: 15px;
+    margin-left: 75px;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    line-height: 20px;
 }

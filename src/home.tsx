@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./header";
 import Footer from "./footer";
-import Example from "./example";
+import Content from "./content";
 import "./CSS/home.css";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
   return (
     <div>
       <Header menu={menu} setMenu={setMenu} />
-      <Example menu={menu} />
+      <Content menu={menu} />
       <Footer />
     </div>
   );

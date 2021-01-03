@@ -1,8 +1,3 @@
-header {
-    position: relative;
-    height: 100px;
-}
-
 .icon {
     position: relative;
     display: inline-block;
@@ -39,17 +34,19 @@ header {
     cursor: pointer;
 }
 
+.header_top {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: -5px;
+}
+
 .header {
     position: fixed;
     background-color: #151515;
     width: 100%;
     height: 60px;
-}
-
-.main {
-    width: 100%;
-    height: 1200px;
-    color: red;
 }
 
 .menu_container {

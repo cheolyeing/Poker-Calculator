@@ -7,6 +7,7 @@ function Header(props: any) {
 
   return (
     <header>
+      <div className="header_top"></div>
       <div className="header">
         <div
           className="icon"
